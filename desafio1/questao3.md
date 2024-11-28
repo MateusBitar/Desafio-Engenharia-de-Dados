@@ -1,3 +1,5 @@
+## **Questão 3: Abordagem Escolhida**
+
 Justificativa:
 
 * A estrutura relacional foi escolhida para facilitar operações como consultas de vendas por cliente, cálculo de impostos e auditorias.
