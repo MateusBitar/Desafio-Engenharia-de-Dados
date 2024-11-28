@@ -1,7 +1,7 @@
 -- =====================================================
 -- TÍTULO: CRIAÇÃO DAS TABELAS
 -- =====================================================
-
+-- Criação da tabela 'guest_checks'
 CREATE TABLE guest_checks (
     guestCheckId BIGINT PRIMARY KEY,
     chkNum INT,
@@ -16,7 +16,7 @@ CREATE TABLE guest_checks (
     locRef VARCHAR(50)
 );
 
-
+-- Criação da tabela 'detail_lines'
 CREATE TABLE detail_lines (
     guestCheckLineItemId BIGINT PRIMARY KEY,
     guestCheckId BIGINT,
@@ -27,7 +27,7 @@ CREATE TABLE detail_lines (
     FOREIGN KEY (guestCheckId) REFERENCES guest_checks(guestCheckId)
 );
 
-
+-- Criação da tabela 'taxes'
 CREATE TABLE taxes (
     taxNum INT,
     guestCheckId BIGINT,
