@@ -1,4 +1,4 @@
-_Questão 1: Por que armazenar as respostas das APIs?_
+***Questão 1: Por que armazenar as respostas das APIs?***
 Razões para armazenar:
 
 1. Auditoria: Permite rastrear e verificar transações.
