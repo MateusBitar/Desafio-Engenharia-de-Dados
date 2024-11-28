@@ -1,4 +1,6 @@
-## ASDF
+-- =====================================================
+-- TÍTULO: CRIAÇÃO DAS TABELAS
+-- =====================================================
 
 CREATE TABLE guest_checks (
     guestCheckId BIGINT PRIMARY KEY,
