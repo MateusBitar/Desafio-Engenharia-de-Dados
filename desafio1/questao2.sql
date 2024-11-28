@@ -1,3 +1,5 @@
+## ASDF
+
 CREATE TABLE guest_checks (
     guestCheckId BIGINT PRIMARY KEY,
     chkNum INT,
