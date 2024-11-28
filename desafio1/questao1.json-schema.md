@@ -2,7 +2,7 @@ O arquivo JSON segue o seguinte esquema:
 
 Objeto Raiz
 
-curUTC (string): Data e hora no formato UTC.
+curUTC (string): Data e hora no formato UTC./n
 locRef (string): Identificador da localização.
 guestChecks (array de objetos): Lista de pedidos realizados.
 Estrutura do guestChecks
